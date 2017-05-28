@@ -1,0 +1,9 @@
+{{#each content as |item index|}}
+  {{~yield (hash 
+    row=(component rowComponent cellComponent=cellComponent cellTagName=cellTagName)
+  ) item index~}}
+{{else}}
+  {{~yield (hash 
+    row=(component rowComponent cellComponent=cellComponent cellTagName=cellTagName)
+  )~}}
+{{/each}}

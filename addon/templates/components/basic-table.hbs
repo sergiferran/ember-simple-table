@@ -1,0 +1,7 @@
+{{~yield (hash 
+  header=(component 'basic-table/section' tagName='thead' rowComponent=headerRowComponent cellComponent=headerCellComponent cellTagName='th')
+  body=(component 'basic-table/section' tagName='tbody' rowComponent=bodyRowComponent cellComponent=bodyCellComponent content=content)
+  footer=(component 'basic-table/section' tagName='tfoot' rowComponent=footerRowComponent cellComponent=footerCellComponent)
+
+  content=content
+  )~}}
