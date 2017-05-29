@@ -1,9 +1,11 @@
 {{#each content as |item index|}}
   {{~yield (hash 
-    row=(component rowComponent cellComponent=cellComponent cellTagName=cellTagName)
+    row=(component rowComponent)
+    cell=(component cellComponent tagName=cellTagName)
   ) item index~}}
 {{else}}
   {{~yield (hash 
-    row=(component rowComponent cellComponent=cellComponent cellTagName=cellTagName)
+    row=(component rowComponent)
+    cell=(component cellComponent tagName=cellTagName)
   )~}}
 {{/each}}

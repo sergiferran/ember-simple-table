@@ -5,6 +5,4 @@ export default Ember.Component.extend({
   layout,
 
   tagName: 'tr',
-  cellTagName: 'td',
-  cellComponent: 'basic-table/cell'
 });
