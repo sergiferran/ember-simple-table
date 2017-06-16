@@ -1,18 +1,18 @@
 {
   "name": "ember-simple-table",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon",
     "table"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "sergiferran",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/sergiferran/ember-simple-table.git",
   "scripts": {
     "build": "ember build",
     "start": "ember server",

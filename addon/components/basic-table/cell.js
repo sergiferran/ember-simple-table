@@ -5,5 +5,5 @@ export default Ember.Component.extend({
   layout,
 
   tagName: 'td',
-  attributeBindings: ['colspan']
+  attributeBindings: ['colspan', 'nowrap']
 });
